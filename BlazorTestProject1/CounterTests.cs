@@ -18,7 +18,7 @@ namespace BlazorTestProject1
             // To make this test pass.
             //  1. Comment out the Services block
             //  2. Comment out the Blazorize Button in the Counter Component
-            
+
             Services
                 .AddBlazorise(options =>
                 {
@@ -26,7 +26,6 @@ namespace BlazorTestProject1
                 })
                 .AddBootstrapProviders()
                 .AddFontAwesomeIcons();
-
             
             // Arrange
             var cut = RenderComponent<Counter>();
